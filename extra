@@ -1,0 +1,100 @@
+https://code.visualstudio.com/  > Install
+https://nodejs.org/en > Install
+https://git-scm.com/downloads > Install
+https://github.com/ > Create Account
+https://github.com/Aakashdeveloper > Follow
+
+NodejS
+Single Threaded Async Non-Blocking
+Create own server
+Open source
+
+
+
+https://code.visualstudio.com/ >>> Install
+https://nodejs.org/en >>>Install
+https://github.com/ >>> CreateAccount
+https://github.com/Aakashdeveloper >>> Follow
+https://git-scm.com/downloads >>> Install
+https://www.mongodb.com/try/download/community > Install
+
+//extension
+vscode-icons
+tabnine
+githistory
+gitlens
+
+JavaScript
+Ifelse,Function,object,JSON,Variables
+
+
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJs-Mongo-Express)
+Third Party Api (Weather Api)
+Node-Es6(.babel)
+Redis v3  > 6379
+Redis v4
+Redis Cloud
+Redisv4 With Mongov5
+ImageUpload
+ImageUpload(formidable)
+/////////////
+
+
+MongoDb Basic >27017  (local/cloud)
+Zomato App backend
+Api with NodeJS(Rest)>1
+DashBoard(Crud)
+Swagger
+Testing
+
+Github
+--Deployment of app---
+render
+Pm2
+Nginx
+Jenkins
+Docker
+Email With Node(nodemailer)
+Login/Logout(JWT)
+Oauth(with github) (https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps)
+Oauth(with google)
+TelegramChat
+GraphQl API
+Paytm-Payment
+Chatapp
+NodeJs with postgres
+FIREBASE
+S3 Imageupload
+AWS lambda micorservice
+--------NOT---------
+React/Angular
+Html/css/jquery
+
+
+Npm 
+> Node Package manager
+Manage the package
+Run the app
+
+///////////
+JSON
+JavaScript Object Notation
+[
+    {
+        "name":"John",
+        "subject":"UI"
+    },
+    {
+        "name":"Rohit",
+        "subject":"Node"
+    }
+]
+
+Package.json
+
+
+https://aakashdeveloper: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@github.com/Aakashdeveloper/July_node_mrng_23.git
+
+ git remote add origin https://aakashdeveloper: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@github.com/Aakashdeveloper/aug_node_eveng_23.git
