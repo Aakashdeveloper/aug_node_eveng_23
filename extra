@@ -93,8 +93,25 @@ JavaScript Object Notation
 ]
 
 Package.json
+> Starting point of the app
+> Contains all the npm package
+> Contain All the commands start,test
+> Meta Data (About application, Name,Version, description)
+
+///Step to generate package.json///
+* NodeJs must be installed in your system
+> go inside a folder where you want to generate package.json
+> npm init
+> answer all question
+> type "yes"
 
 
-https://aakashdeveloper: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@github.com/Aakashdeveloper/July_node_mrng_23.git
 
- git remote add origin https://aakashdeveloper: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@github.com/Aakashdeveloper/aug_node_eveng_23.git
+///Step to install packages///
+> go inside a folder where you want to install packages
+> npm i packagename
+
+
+Node_modules > folder in which all the packages are installed locally
+package-lock.json > dependency tree
+
