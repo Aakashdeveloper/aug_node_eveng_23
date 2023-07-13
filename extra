@@ -29,6 +29,7 @@ Ifelse,Function,object,JSON,Variables
 
 
 NPM
+/////////////////////////
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJs-Mongo-Express)
 Third Party Api (Weather Api)
@@ -115,3 +116,16 @@ Package.json
 Node_modules > folder in which all the packages are installed locally
 package-lock.json > dependency tree
 
+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
+
+
+
+
+git remote set-url origin  https://aakashdeveloper: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@github.com/Aakashdeveloper/July_node_mrng_23.git
+
+git remote set-url origin https://aakashdeveloper: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@github.com/Aakashdeveloper/June_Node_Mrng_23.git
+
+git remote set-url origin https://aakashdeveloper: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@github.com/Aakashdeveloper/aug_node_eveng_23.git
+
+
+git remote set-url origin https://aakashdeveloper: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@github.com/Aakashdeveloper/aug_node_eveng_23.git
