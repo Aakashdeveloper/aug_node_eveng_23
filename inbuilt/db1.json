@@ -22,13 +22,5 @@
     "state_id": 3,
     "state": "Karnataka",
     "country_name": "India"
-  },
-  {
-    "_id": "6187738a62a1816f88586350",
-    "location_id": 13,
-    "location_name": "Sector 13, Chandigarh",
-    "state_id": 4,
-    "state": "Punjab",
-    "country_name": "India"
   }
 ]

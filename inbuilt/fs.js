@@ -14,19 +14,18 @@ let fs = require('fs');
 //     console.log(data)
 // })
 
-
-// fs.rename('myText.txt','mydata.txt',function(err){
+// fs.rename('mydata.txt','mycode.txt',(err)=>{
 //     if(err) throw err;
-//     console.log('File Renamed')
+//     console.log('file renamed')
 // })
 
-// fs.unlink('myFile.txt',(err)=>{
+// fs.unlink('mycode.txt',(err)=>{
 //     if(err) throw err;
-//     console.log('File Deleted')
+//     console.log('file deleted')
 // })
 
-let data = fs.readFileSync('myText.txt','utf-8')
-console.log(data)
+let data = fs.readFileSync('db.json',{encoding:'utf-8',flag:'r'})
+console.log("11>>>",data)
 
-let data1 = fs.readFileSync('myText1.txt','utf-8')
-console.log(data1)
+let data1 = fs.readFileSync('db1.json',{encoding:'utf-8',flag:'r'})
+console.log("222>>>",data1)
