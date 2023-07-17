@@ -116,16 +116,9 @@ Package.json
 Node_modules > folder in which all the packages are installed locally
 package-lock.json > dependency tree
 
-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
 
+Day-1 https://youtu.be/w6OEcyRdmXI
+Day-2 https://youtu.be/zZHIOUJ5VtM
+Day-3 https://youtu.be/4GlOcTPa2P0
+Day-4 https://youtu.be/c8-3f2onmhE
 
-
-
-git remote set-url origin  https://aakashdeveloper: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@github.com/Aakashdeveloper/July_node_mrng_23.git
-
-git remote set-url origin https://aakashdeveloper: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@github.com/Aakashdeveloper/June_Node_Mrng_23.git
-
-git remote set-url origin https://aakashdeveloper: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@github.com/Aakashdeveloper/aug_node_eveng_23.git
-
-
-git remote set-url origin https://aakashdeveloper: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@github.com/Aakashdeveloper/aug_node_eveng_23.git
