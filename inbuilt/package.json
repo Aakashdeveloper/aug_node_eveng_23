@@ -4,7 +4,8 @@
   "description": "this is about http",
   "main": "fs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node staticapi.js",
+    "dev":"node http.js"
   },
   "keywords": [
     "node"
