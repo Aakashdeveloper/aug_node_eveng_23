@@ -123,3 +123,30 @@ Day-3 https://youtu.be/4GlOcTPa2P0
 Day-4 https://youtu.be/c8-3f2onmhE
 Day-5 https://youtu.be/BmnrF5FZzVQ
 
+
+
+Local
+> Local to each application
+> Added in package.json
+> They are a kind of main dependency
+> npm i packagename
+
+Dev
+> Only require at the time of development
+> look like local dependency but added in different object
+> npm i packagename --save-dev
+
+Global
+> Install in laptop
+> Not added in package.json
+> Only require to start or build the app
+> Can be use for any app in laptop
+
+
+# window
+> open cmd as admin
+> npm i -g package name
+
+# mac
+> open terminal
+> sudo npm i -g package name
