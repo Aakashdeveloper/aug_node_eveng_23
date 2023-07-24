@@ -116,15 +116,6 @@ Package.json
 Node_modules > folder in which all the packages are installed locally
 package-lock.json > dependency tree
 
-
-Day-1 https://youtu.be/w6OEcyRdmXI
-Day-2 https://youtu.be/zZHIOUJ5VtM
-Day-3 https://youtu.be/4GlOcTPa2P0
-Day-4 https://youtu.be/c8-3f2onmhE
-Day-5 https://youtu.be/BmnrF5FZzVQ
-
-
-
 Local
 > Local to each application
 > Added in package.json
@@ -150,3 +141,17 @@ Global
 # mac
 > open terminal
 > sudo npm i -g package name
+
+
+Ternary
+
+condition?if condition is true : condition is false
+
+let a = 10
+a>10?"Hiii":"Bie"
+"Bie"
+
+
+let a = 10
+a==10?"Hiii":"Bie"
+"Hiii"
