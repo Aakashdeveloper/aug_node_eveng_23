@@ -1,0 +1,20 @@
+// First Download mongodb & install
+
+https://www.mongodb.com/try/download/community-kubernetes-operator
+
+///
+Create a folder by the name of data in C drive
+C:\data
+
+in data make folder by the name of db
+
+C:\data\db
+
+Unsstructured
+
+Sql
+RollNo | Hindi | English
+  1    |  80   |
+  2    |       |  90
+  3    |  78   |
+ 

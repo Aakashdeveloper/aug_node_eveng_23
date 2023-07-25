@@ -515,14 +515,20 @@ const products = [
     }
 ]
 
-productRouter.route('/')
-    .get(function(req,res){
-        res.render('products',{title:'Products Page',products})
+function router(menu){
+    
+    productRouter.route('/')
+        .get(function(req,res){
+        res.render('products',{title:'Products Page',products,menu})
     })
 
-productRouter.route('/details')
-    .get(function(req,res){
+    productRouter.route('/details')
+        .get(function(req,res){
         res.send('Products Details')
     })
 
-module.exports = productRouter
+    return productRouter
+
+}
+
+module.exports = router

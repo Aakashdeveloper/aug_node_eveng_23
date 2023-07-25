@@ -155,3 +155,11 @@ a>10?"Hiii":"Bie"
 let a = 10
 a==10?"Hiii":"Bie"
 "Hiii"
+
+
+function add(a,b){
+    return a+b
+}
+
+
+add(1,2)
