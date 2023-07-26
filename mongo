@@ -10,11 +10,105 @@ in data make folder by the name of db
 
 C:\data\db
 
-Unsstructured
+
+//Mac /linux
+> open terminal
+> mkdir data/db
+
+Unstructured
 
 Sql
-RollNo | Hindi | English
-  1    |  80   |
-  2    |       |  90
-  3    |  78   |
+RollNo | Hindi | English | Comp
+  1    |  80   |         |  91
+  2    |       |  90     |
+  3    |  78   |         |
  
+
+MongoDb
+[
+  {
+    RollNo:1,
+    Hindi:80,
+    Comp:91
+  },
+  {
+    RollNo:2,
+    English:90
+  },
+  {
+    RollNo:3,
+    Hindi:78
+  }
+]
+
+
+mongo       sql
+database    database
+collection  table
+document    row
+find        select
+update      update
+insert      insert
+remove      delete
+
+Mongo
+> It can hold unstructed as well as structured form of data
+> It is use for saving big amount of data
+> Response time is faster as compare to sql
+> Schemaless
+
+Server
+> Server should be running if you are using mongodb
+> default port on which server is running is 27017
+
+Client
+> help to test our query
+> only need for running query application do not need it
+
+
+* Step to start mongo server
+# window
+// Step to start server
+> Open cmd and go inside the bin folder
+> c:/programfile/mongodb/server/5.0/bin
+> mongod
+This will start mongodb server on port 27017
+
+# Mac/linux
+> open terminal
+> mongod --dbpath data/db
+
+
+* Step to start mongo client
+# window
+> Open cmd and go inside the bin folder
+> c:/programfile/mongodb/server/5.0/bin
+> mongo
+
+# mac
+> open terminal
+> mongo
+
+
+/////////////
+* check all the databases
+> show dbs
+
+* go inside db
+> use dbname
+
+* check all the collections
+> show collections
+
+* data inside the collection
+> db.collectionName.find()
+
+
+* To create new database
+> use dbname
+
+
+* to insert data
+db.collection.insert()
+
+db.user.insert({name:"Amit"})

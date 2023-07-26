@@ -1,4 +1,4 @@
-db.catgeory.insert(
+db.category.insert(
 [
     {
         "id":1,
