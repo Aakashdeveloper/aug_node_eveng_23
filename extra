@@ -29,9 +29,9 @@ Ifelse,Function,object,JSON,Variables
 
 
 NPM
-/////////////////////////
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJs-Mongo-Express)
+/////////////////////////
 Third Party Api (Weather Api)
 Node-Es6(.babel)
 Redis v3  > 6379
@@ -40,9 +40,6 @@ Redis Cloud
 Redisv4 With Mongov5
 ImageUpload
 ImageUpload(formidable)
-/////////////
-
-
 MongoDb Basic >27017  (local/cloud)
 Zomato App backend
 Api with NodeJS(Rest)>1
