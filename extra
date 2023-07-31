@@ -160,3 +160,17 @@ function add(a,b){
 
 
 add(1,2)
+
+
+/////
+params
+> What we pass after /
+> We need to define before using it
+> If defined then complousry to pass
+> Normally use for route
+
+queryParams
+> What we pass after ?
+> No need to define
+> not complousry to pass
+> Use for filtring purpose

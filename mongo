@@ -112,3 +112,15 @@ This will start mongodb server on port 27017
 db.collection.insert()
 
 db.user.insert({name:"Amit"})
+
+
+* Find with condition
+db.collection.find({condition})
+
+db.products.find({category_id:1})
+
+
+db.products.find({Color:'White'})
+
+
+db.products.find({category_id:1,Color:'White'})

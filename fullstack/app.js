@@ -1,5 +1,6 @@
 let express = require('express');
 let app = express();
+const {dbConnect}  = require('./src/controller/dbcontroller')
 
 
 let port = 9101;
@@ -32,6 +33,7 @@ app.use('/products', productRouter)
 
 //create server
 app.listen(port,function(err){
+    dbConnect()
     if(err) throw err;
     console.log("server listening to port "+port);
 });
