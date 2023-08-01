@@ -31,8 +31,8 @@ Ifelse,Function,object,JSON,Variables
 NPM
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJs-Mongo-Express)
-/////////////////////////
 Third Party Api (Weather Api)
+/////////////////////////
 Node-Es6(.babel)
 Redis v3  > 6379
 Redis v4
@@ -174,3 +174,13 @@ queryParams
 > No need to define
 > not complousry to pass
 > Use for filtring purpose
+
+///es5
+var a = 10
+var b = "my age is "+a
+"my age is 10"
+
+//es6
+let a  = 10
+let b = `My age is ${a}`
+"my age is 10"
