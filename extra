@@ -32,12 +32,13 @@ NPM
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJs-Mongo-Express)
 Third Party Api (Weather Api)
-/////////////////////////
 Node-Es6(.babel)
+/////////////////////////
 Redis v3  > 6379
 Redis v4
 Redis Cloud
 Redisv4 With Mongov5
+
 ImageUpload
 ImageUpload(formidable)
 MongoDb Basic >27017  (local/cloud)
@@ -184,3 +185,11 @@ var b = "my age is "+a
 let a  = 10
 let b = `My age is ${a}`
 "my age is 10"
+
+// for import support
+
+"type": "module",
+import path from 'path';
+const __dirname = path.resolve();
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status

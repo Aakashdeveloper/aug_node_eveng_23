@@ -1,9 +1,12 @@
 let express = require('express');
 let app = express();
+let dotenv = require('dotenv');
+dotenv.config()
+let morgan = require('morgan');
 const {dbConnect}  = require('./src/controller/dbcontroller')
 
 
-let port = 9101;
+let port = process.env.PORT || 9101;
 
 let menu = [
     {link:"/",name:'Home'},
@@ -13,6 +16,9 @@ let menu = [
 
 let categoryRouter = require('./src/controller/categoryRouter')(menu);
 let productRouter = require('./src/controller/productRouter')(menu);
+
+//middleware
+app.use(morgan('dev'))
 
 // static file path
 app.use(express.static(__dirname+'/public'))

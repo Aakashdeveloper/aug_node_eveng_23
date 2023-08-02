@@ -1,5 +1,5 @@
-import express from 'express';
-import request from 'request';
+let express = require('express');
+let request = require('request');
 let port = 7660;
 let app = express();
 
@@ -14,8 +14,8 @@ app.get('/weather',(req,res) => {
     request(url,(err,response) => {
         if(err) throw err;
         const output = JSON.parse(response.body);
-        res.send(output)
-        //res.render('index',{title:'Weather App',result:output})
+        //res.send(output)
+        res.render('index',{title:'Weather App',result:output})
     })
 })
 
