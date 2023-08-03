@@ -1,5 +1,6 @@
 let express = require('express');
 let app = express();
+let fs = require('fs')
 let dotenv = require('dotenv');
 dotenv.config()
 let morgan = require('morgan');
@@ -18,7 +19,7 @@ let categoryRouter = require('./src/controller/categoryRouter')(menu);
 let productRouter = require('./src/controller/productRouter')(menu);
 
 //middleware
-app.use(morgan('dev'))
+app.use(morgan('dev',{stream:fs.createWriteStream('./app.log')}))
 
 // static file path
 app.use(express.static(__dirname+'/public'))

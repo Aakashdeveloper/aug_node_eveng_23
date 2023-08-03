@@ -33,13 +33,14 @@ Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJs-Mongo-Express)
 Third Party Api (Weather Api)
 Node-Es6(.babel)
-/////////////////////////
 Redis v3  > 6379
+/////////////////////////
 Redis v4
-Redis Cloud
 Redisv4 With Mongov5
 
+Redis Cloud
 ImageUpload
+
 ImageUpload(formidable)
 MongoDb Basic >27017  (local/cloud)
 Zomato App backend
@@ -193,3 +194,13 @@ import path from 'path';
 const __dirname = path.resolve();
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+
+/////////Redis////////////////
+KEYS *
+set keyname value
+get keyname
+del keyname
+FLUSHALL
+
+set keyname value ex time
