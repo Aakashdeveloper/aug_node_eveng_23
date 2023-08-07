@@ -34,14 +34,13 @@ NodeJS(full Stack App) (Node-EJs-Mongo-Express)
 Third Party Api (Weather Api)
 Node-Es6(.babel)
 Redis v3  > 6379
-/////////////////////////
 Redis v4
 Redisv4 With Mongov5
-
-Redis Cloud
 ImageUpload
-
+/////////////////////////
+Redis Cloud
 ImageUpload(formidable)
+S3 Imageupload
 MongoDb Basic >27017  (local/cloud)
 Zomato App backend
 Api with NodeJS(Rest)>1
@@ -66,7 +65,6 @@ Paytm-Payment
 Chatapp
 NodeJs with postgres
 FIREBASE
-S3 Imageupload
 AWS lambda micorservice
 --------NOT---------
 React/Angular
