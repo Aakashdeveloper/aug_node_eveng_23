@@ -124,3 +124,23 @@ db.products.find({Color:'White'})
 
 
 db.products.find({category_id:1,Color:'White'})
+
+
+///MongoCloud
+https://cloud.mongodb.com/
+
+Network Access > Add IP Address > 0.0.0.0/0
+> Confirm
+
+Database Access>Add New Database User >
+Enter
+Username  > test
+autogenerate password >123HrI
+> Built in role > Atlas Admin
+
+
+Database >  Connect > Driver > NodeJs
+mongodb+srv://<username>:<password>@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
+
+
+mongodb+srv://test:123HrI@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
