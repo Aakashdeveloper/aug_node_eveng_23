@@ -1,0 +1,70 @@
+[
+    {
+	"name" : "Tony",
+	"age" : 17,
+	"id" : 1,
+	"sec" : "A",
+	"subject" : [
+		"Physics",
+		"Math"
+	]
+},
+{
+	"name" : "Steave",
+	"age" : 37,
+	"id" : 2,
+	"sec" : "A"
+},
+{
+	"name" : "Natasha",
+	"age" : 17,
+	"id" : 3,
+	"sec" : "B",
+	"subject" : [
+		"Physics",
+		"English"
+	]
+},
+{
+	"name" : "Bruce",
+	"age" : 21,
+	"id" : 4,
+	"sec" : "B",
+	"subject" : [
+		"Physics",
+		"English",
+		"Biology",
+		"Chemsitry"
+	]
+},
+{
+	"name" : "Nick",
+	"age" : 40,
+	"id" : 5,
+	"sec" : "B",
+	"subject" : [
+		"English"
+	]
+},
+{
+	"name" : "Groot",
+	"age" : 14,
+	"id" : 6,
+	"sec" : "A",
+	"subject" : [
+		"English"
+	]
+},
+{
+	"name" : "Thanos",
+	"age" : 14,
+	"id" : 7,
+	"sec" : "A",
+	"subject" : [
+		"English",
+		"Physics",
+		"Math"
+	]
+}
+
+]

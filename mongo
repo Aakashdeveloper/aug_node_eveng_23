@@ -1,4 +1,22 @@
 // First Download mongodb & install
+///MongoCloud
+https://cloud.mongodb.com/
+
+Network Access > Add IP Address > 0.0.0.0/0
+> Confirm
+
+Database Access>Add New Database User >
+Enter
+Username  > test
+autogenerate password >123HrI
+> Built in role > Atlas Admin
+
+
+Database >  Connect > Driver > NodeJs
+mongodb+srv://<username>:<password>@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
+
+
+mongodb+srv://test:123HrI@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
 
 https://www.mongodb.com/try/download/community-kubernetes-operator
 
@@ -126,21 +144,83 @@ db.products.find({Color:'White'})
 db.products.find({category_id:1,Color:'White'})
 
 
-///MongoCloud
-https://cloud.mongodb.com/
-
-Network Access > Add IP Address > 0.0.0.0/0
-> Confirm
-
-Database Access>Add New Database User >
-Enter
-Username  > test
-autogenerate password >123HrI
-> Built in role > Atlas Admin
+//projection
+db.colname.find({condition},{projection})
 
 
-Database >  Connect > Driver > NodeJs
-mongodb+srv://<username>:<password>@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
+db.restaurants.find({},{restaurant_name:1,cost:1,_id:0})
+
+db.restaurants.find({state_id:1},{restaurant_name:1,address:1,cost:1,_id:0})
 
 
-mongodb+srv://test:123HrI@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
+db.restaurants.find({"mealTypes.mealtype_id":1},{restaurant_name:1,mealTypes:1,cost:1,_id:0}).pretty()
+
+
+db.restaurants.find({},{restaurant_name:1,address:1,cost:1,_id:0}).sort({cost:1})
+
+
+db.restaurants.find({},{restaurant_name:1,address:1,cost:1,_id:0}).sort({cost:1}).skip(0).limit(3).pretty()
+
+db.restaurants.find({},{restaurant_name:1,address:1,cost:1,_id:0}).sort({cost:1}).skip(3).limit(3).pretty()
+
+
+db.restaurants.find({
+  $and:[
+    {"mealTypes.mealtype_id":1},
+    {"cuisines.cuisine_id":1}
+  ]
+},{restaurant_name:1,mealTypes:1,cuisines:1,_id:0}).pretty()
+
+db.restaurants.find({
+  $or:[
+    {"mealTypes.mealtype_id":1},
+    {"cuisines.cuisine_id":1}
+  ]
+},{restaurant_name:1,mealTypes:1,cuisines:1,_id:0}).pretty()
+
+db.restaurants.find({"mealTypes.mealtype_id":{$in:[4,1,2]}}).pretty()
+
+db.restaurants.find({cost:{$lt:500}},{restaurant_name:1,cost:1,_id:0}).pretty()
+
+
+db.restaurants.find({cost:{$gt:500}},{restaurant_name:1,cost:1,_id:0}).pretty()
+
+db.restaurants.find({cost:{$gt:500,$lt:1000}},{restaurant_name:1,cost:1,_id:0}).pretty()
+
+
+// Aggeration
+> $match
+> $project
+> $group
+> $sort
+> $skip
+> $limit
+> $unwind
+> $out
+
+db.orders.insert([ 
+  { "_id" : 1, "item" : "almonds", "price" : 12, "quantity" : 2 }, 
+  { "_id" : 2, "item" : "pecans", "price" : 20, "quantity" : 1 }, 
+  { "_id" : 3 } 
+])
+
+db.inventory.insert([ 
+  { "_id" : 1, "sku" : "almonds", description: "product 1", "instock" : 120 }, 
+  { "_id" : 2, "sku" : "bread", description: "product 2", "instock" : 80 }, 
+  { "_id" : 3, "sku" : "cashews", description: "product 3", "instock" : 60 }, 
+  { "_id" : 4, "sku" : "pecans", description: "product 4", "instock" : 70 }, 
+  { "_id" : 5, "sku": null, description: "Incomplete" }, 
+  { "_id" : 6 } 
+])
+
+
+db.orders.aggregate([
+  {
+    $lookup:{
+      from:'inventory',
+      localField:'item',
+      foreignField:'sku',
+      as:'combine_data'
+    }
+  }
+])
