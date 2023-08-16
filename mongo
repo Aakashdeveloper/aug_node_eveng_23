@@ -224,3 +224,33 @@ db.orders.aggregate([
     }
   }
 ])
+
+
+
+db.users.update({condition},{$set:{values}})
+
+db.users.update(
+  {name:"Amit"},
+  {
+    $set:{
+      "city":"Delhi",
+      "role":"Admin"
+  }
+})
+
+
+db.users.update(
+  {name:"Amit"},
+  {
+    $unset:{
+      "city":1
+  }
+})
+
+
+//delete
+// remove all data
+db.users.remove({})
+
+// remove particular
+db.users.remove({condition})

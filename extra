@@ -207,3 +207,11 @@ set keyname value ex time
 
 
 https://redis.io/download/
+
+
+
+
+C > Create > POST
+R > Read   > GET
+U > Update > PUT/PATCH
+D > Delete > DELETE
