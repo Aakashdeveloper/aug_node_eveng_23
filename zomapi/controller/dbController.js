@@ -10,7 +10,19 @@ function dbConnect(){
     })
 }
 
+async function getData(colName,query){
+    let output;
+    try{
+        output = await db.collection(colName).find(query).toArray()
+    } catch(err){
+        output = {"error":`Error in condition for getting data from ${colName}`}
+    }
+
+    return output
+}
+
 
 module.exports = {
-    dbConnect
+    dbConnect,
+    getData
 }
