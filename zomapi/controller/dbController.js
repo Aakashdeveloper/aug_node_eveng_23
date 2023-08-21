@@ -22,7 +22,31 @@ async function getData(colName,query){
 }
 
 
+async function getDataSort(colName,query,sort){
+    let output;
+    try{
+        output = await db.collection(colName).find(query).sort(sort).toArray()
+    }catch(err){
+        output = {"error":`Error in condition for getting data from ${colName}`}
+    }
+
+    return output
+}
+
+async function getDataSortLimit(colName,query,sort,skip,limit){
+    let output;
+    try{
+        output = await db.collection(colName).find(query).sort(sort).skip(skip).limit(limit).toArray()
+    }catch(err){
+        output = {"error":`Error in condition for getting data from ${colName}`}
+    }
+
+    return output
+}
+
 module.exports = {
     dbConnect,
-    getData
+    getData,
+    getDataSort,
+    getDataSortLimit
 }
