@@ -39,7 +39,22 @@
 
 //Page4
 > (POST) Details of selected menu
+
 > (POST) Place Order
+* http://localhost:8771/menuDetails
+{
+	"orderId" : 3,
+	"name" : "Amit",
+	"email" : "amit@gmail.com",
+	"address" : "Hom 65",
+	"phone" : 8934645457,
+	"cost" : 312,
+	"menuItem" : [
+		3,7,23
+	],
+	"status" : "Pending"
+}
+
 
 //Page5
 > (GET) Get all orders / orders wrt to email
@@ -47,4 +62,11 @@
 * http://localhost:8771/orders?email=a@a.com
 
 > (PUT) Update order status
+* http://localhost:8771/updateOrder
+{
+	"_id":"64e4d0c71059c3ae46c23f71",
+    "status":"On The Way"
+}
 > (DELETE) Delete orders
+* http://localhost:8771/deleteOrder
+{"_id":"64e4d0cd1059c3ae46c23f72"}
