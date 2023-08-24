@@ -219,3 +219,7 @@ C > Create > POST
 R > Read   > GET
 U > Update > PUT/PATCH
 D > Delete > DELETE
+
+
+npm i body-parser cors ejs express mongodb swagger-jsdoc swagger-ui-express
+npm i chai chai-http mocha --save-dev

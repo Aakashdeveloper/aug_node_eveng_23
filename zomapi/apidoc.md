@@ -39,6 +39,9 @@
 
 //Page4
 > (POST) Details of selected menu
+{
+    "id":[2,3,4]
+}
 
 > (POST) Place Order
 * http://localhost:8771/menuDetails
