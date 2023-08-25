@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node apiWithoutUi.js",
-    "dev":"nodemon apiWithoutUi.js",
-    "ui":"node apiWithtUi.js"
+    "start": "node apiWithoutUi.js",
+    "dev": "nodemon apiWithoutUi.js",
+    "ui": "node apiWithtUi.js"
   },
   "keywords": [],
   "author": "",

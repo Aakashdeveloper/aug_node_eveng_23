@@ -1,6 +1,5 @@
 db.dashboard.insert([
     {
-        "_id": "6447441638c8bfde94b44360",
         "name": "Nikita",
         "city": "London",
         "phone": 987654231,
@@ -8,7 +7,6 @@ db.dashboard.insert([
         "isActive": true
     },
     {
-        "_id": "6447443338c8bfde94b44361",
         "name": "John",
         "city": "Amsterdam",
         "phone": 323463547,
@@ -16,7 +14,6 @@ db.dashboard.insert([
         "isActive": false
     },
     {
-        "_id": "6447444038c8bfde94b44362",
         "name": "Anchal",
         "city": "Paris",
         "phone": 6456454532,
@@ -24,7 +21,6 @@ db.dashboard.insert([
         "isActive": true
     },
     {
-        "_id": "6447445138c8bfde94b44363",
         "name": "Amit",
         "city": "Amsterdam",
         "phone": "12345678",
@@ -32,7 +28,6 @@ db.dashboard.insert([
         "isActive": true
     },
     {
-        "_id": "64474469ac777ed20f6dd3dd",
         "name": "Sahil",
         "city": "Delhi",
         "phone": 768767678,
@@ -48,7 +43,6 @@ db.dashboard.insert([
         "isActive": true
     },
     {
-        "_id": "6447447cba2ded19c8b40dd4",
         "name": "Bhumika",
         "city": "Paris",
         "phone": 34634754,
@@ -56,7 +50,6 @@ db.dashboard.insert([
         "isActive": true
     },
     {
-        "_id": "64474483ba2ded19c8b40dd5",
         "name": "Jasmeet",
         "city": "Delhi",
         "phone": 4235346,
@@ -64,7 +57,6 @@ db.dashboard.insert([
         "isActive": true
     },
     {
-        "_id": "6447448bba2ded19c8b40dd6",
         "name": "Keerti",
         "city": "Amsterdam",
         "phone": 7868867867,
@@ -72,7 +64,6 @@ db.dashboard.insert([
         "isActive": true
     },
     {
-        "_id": "64474493ba2ded19c8b40dd7",
         "name": "Parul",
         "city": "Venice",
         "phone": "9876543211",
@@ -80,7 +71,6 @@ db.dashboard.insert([
         "isActive": true
     },
     {
-        "_id": "644b354bdcd1981c6acbab70",
         "name": "Keerti",
         "city": "Amsterdam",
         "phone": 989878762,
@@ -88,13 +78,6 @@ db.dashboard.insert([
         "isActive": false
     },
     {
-        "_id": "644f26c02b36669b34df8fae",
-        "name": "Test User",
-        "City": "Test CIty",
-        "isActive": false
-    },
-    {
-        "_id": "646d8975eb09e25ef46330ec",
         "name": "Punith",
         "city": "Delhi",
         "phone": 87878933,
