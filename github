@@ -3,7 +3,7 @@ git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://aakashdeveloper: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@github.com/Aakashdeveloper/nodedashboarddelete.git
+git remote add origin https://github.com/Aakashdeveloper/nodedashboarddelete.git
 git push -u origin main
 
 
