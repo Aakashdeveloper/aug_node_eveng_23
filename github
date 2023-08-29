@@ -1,0 +1,13 @@
+//first time from new folder
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://aakashdeveloper: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@github.com/Aakashdeveloper/nodedashboarddelete.git
+git push -u origin main
+
+
+//next any time from same folder in same repo
+git add .
+git commit -m "first commit"
+git push

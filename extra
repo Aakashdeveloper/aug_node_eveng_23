@@ -52,11 +52,11 @@ Api with NodeJS(Rest)>1
 DashBoard(Crud)
 Swagger
 Testing 
-/////////////////////////
 Github
 --Deployment of app---
 render
 Pm2
+/////////////////////////
 Nginx
 Jenkins
 Docker
@@ -228,3 +228,12 @@ D > Delete > DELETE
 
 npm i body-parser cors ejs express mongodb swagger-jsdoc swagger-ui-express
 npm i chai chai-http mocha --save-dev
+
+
+npm i -g pm2
+
+pm2 start filename
+pm2 stop
+pm2 status
+
+pm2 start filename -i processNumber
