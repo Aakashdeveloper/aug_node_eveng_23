@@ -56,11 +56,10 @@ Github
 --Deployment of app---
 render
 Pm2
-/////////////////////////
 Nginx
 Jenkins
 Docker
-
+/////////////////////////
 Email With Node(nodemailer)
 TelegramChat
 
@@ -237,3 +236,15 @@ pm2 stop
 pm2 status
 
 pm2 start filename -i processNumber
+
+
+www.test.com
+
+
+175.4.67.11:9809
+
+docker build . -t imagename
+docker run -p 3000:8000  imagename
+
+
+https://support.google.com/accounts/answer/185833?hl=en
