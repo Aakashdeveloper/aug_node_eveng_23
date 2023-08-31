@@ -59,10 +59,9 @@ Pm2
 Nginx
 Jenkins
 Docker
-/////////////////////////
 Email With Node(nodemailer)
 TelegramChat
-
+/////////////////////////
 Login/Logout(JWT)
 
 Oauth(with github) (https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps)
@@ -248,3 +247,5 @@ docker run -p 3000:8000  imagename
 
 
 https://support.google.com/accounts/answer/185833?hl=en
+
+npm i jsonwebtoken mongoose@6.10.0 express body-parser cors bcryptjs @babel/core @babel/preset-env @babel/register
