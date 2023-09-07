@@ -64,14 +64,12 @@ TelegramChat
 Login/Logout(JWT)
 Oauth(with github) (https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps)
 Oauth(with google)
-/////////////////////////
 GraphQl API
 NodeJs with postgres
-
+FIREBASE
+/////////////////////////
 Paytm-Payment
 Chatapp
-
-FIREBASE
 AWS lambda micorservice
 --------NOT---------
 React/Angular
@@ -253,3 +251,17 @@ npm i jsonwebtoken mongoose@6.10.0 express body-parser cors bcryptjs @babel/core
 //dummy api
 > npm i -g json-server
 json-server --watch db.json --port 9911
+
+https://www.postgresql.org/download/
+5432
+
+//postgres
+> pg_ctl -D /usr/local/var/postgres start
+> pg_ctl -D /usr/local/var/postgres stop
+
+
+npm i -g firebase
+
+firebase init
+
+firebase deploy

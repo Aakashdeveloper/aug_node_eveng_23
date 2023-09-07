@@ -24,14 +24,14 @@ const ProductType = new GraphQLObjectType({
       })
 })
 
-const RootQuery = new GraphQLQueryType({
+const RootQuery = new GraphQLObjectType({
     name:'RootQueryType',
     fields:({
         Products:{
             type:ProductType,
             args:{id:{type:GraphQLInt}},
             resolve(parentValue,args){
-                return axios.getAdapter(`http://localhost:9910/products/${args.id}`)
+                return axios.get(`http://localhost:9910/products/${args.id}`)
                 .then((res) => res.data)
             }
         }
