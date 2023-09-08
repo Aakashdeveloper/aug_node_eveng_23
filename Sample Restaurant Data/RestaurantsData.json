@@ -1,42 +1,5 @@
 db.restaurants.insert([
-  {
-    "restaurant_id": 1,
-    "restaurant_name": "Domino's Pizza",
-    "location_id": 1,
-    "state_id": 1,
-    "address": "Ashok Vihar Phase 3, New Delhi",
-    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-    "average_rating": 4.2,
-    "rating_text": "Very Good",
-    "cost": 666,
-    "contact_number": 9453524651,
-    "mealTypes": [
-      {
-        "mealtype_id": 1,
-        "mealtype_name": "Breakfast"
-      },
-      {
-        "mealtype_id": 2,
-        "mealtype_name": "Lunch"
-      }
-    ],
-    "cuisines": [
-      {
-        "cuisine_id": 1,
-        "cuisine_name": "North Indian"
-      },
-      {
-        "cuisine_id": 4,
-        "cuisine_name": "Fast Food"
-      }
-    ],
-    "image_gallery": [
-      "https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg",
-      "https://b.zmtcdn.com/data/pictures/chains/3/143/1adb116d088669540c89150836d668f9.jpg",
-      "https://b.zmtcdn.com/data/pictures/chains/3/143/2781ab2c532b711ecd401571cdd87eb9.jpg",
-      "https://b.zmtcdn.com/data/pictures/chains/3/143/c751805b5927046d340926f870a95f5e.jpg"
-    ]
-  },
+ 
   {
     "restaurant_id": 2,
     "restaurant_name": "Pandit Ji Paratha Hut",
@@ -74,7 +37,7 @@ db.restaurants.insert([
       "https://b.zmtcdn.com/data/reviews_photos/ff4/8ea6f51aebe1cad803c293574f0afff4_1453703271.jpg",
       "https://b.zmtcdn.com/data/reviews_photos/baa/30e9afd319d48c1122e7c19228287baa_1517462886.jpg"
     ]
-  },
+  }
   {
     "restaurant_id": 3,
     "restaurant_name": "Food Adda",
